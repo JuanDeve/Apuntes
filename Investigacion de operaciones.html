@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 70vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1, h2 ,h3,h4,h5{
+            margin: 20px;
+            justify-self: end;
+            align-self: flex-start;
+            text-align: left;
+        }
+        header{
+            margin: 50px auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+    <body>
+        <header>
+            <h1> Investigacion de operaciones </h1>
+            <hr>
+            <nav>Traer calculadora para los examenes</nav>
+        </header>
+        <h2>Toma de desiciones</h2>
+        <p>la toma de desiciones es el preceso de elegir un conjuntos de posibles alternativas, para esto se debe definir un problema, indentificar las posibles alternativas</p>
+        <ul><li>exito o fracaso
+            <li>dificles y complejas
+                <li>miedo,ansiedadmdudas
+                    <li>decisiones apresuradas</li>
+                </li>
+            </li>
+        </li></ul>
+        En esta materia se va a evaluar cada uno de estos factores
+
+        <h2>como proceder?</h2>
+        <ol>
+            <li>Definir el problema</li>
+            <li>enumerar las posibles alternativas</li>
+            <li>indentificar los posibles escenarios o estados de la naturaleza</li>
+            <li>obtencion de resultados y valoracion de estos</li>
+            <li>prediccion de probabilidades de cada estado</li>
+            <li>indentificar el tipo de desicione
+                <ul><li>desiciones estaticas</li>
+                    <li>desiciones secuenciales</li>
+                
+                </ul>
+            </li>
+            <li>indentificar el contexto en el que se toma la desicion
+                <ul>
+                    <li>incertidumbre</li>
+                    <li>riego</li>
+                    <li>certeza</li>
+            
+                </ul>
+            </li>
+        </ol>
+        <h2>Tipos de desiciones</h2>
+        <ol>
+            <li>tipos de desiciones bajo certidumbre: existe solo un resultado para la desicion</li>
+            <li>Toma de desiciones sin datos previos(incertidumbre)</li>
+            <li>toma de desiciones utilizando datos previos(probabilidades)</li>
+
+        </ol>
+        <h2>modelos de tomas de desiciones</h2>
+        <img src="Imagenes/desiciones.png" alt="">
+    <h2>Actividad</h2>
+    <h3>Esribir una situaciones en la que tome una desiciones con sus posibles alternativas y posibles escenarios externos que influyan en la desicion</h3>
+    <p>Solucion: Aprender a programar/ alternativas/ PY,JAVASCRIPT,C/Gustos de sintaxis y mejores mercados respecto al lenguaje </p>
+    
+
+    <h2>Modelos de toma de decisiones sin datos previos</h2>
+      <ul>
+        <li>enfoque optimista</li>
+        <li>enfoque conservador</li>
+        <li>Pago promedio</li>
+        <li>Minimizacion del arrepentimiento</li>
+      </ul>
+    <img src="Imagenes\Matriz beneficios.jpeg" alt="Modelo de toma de decisiones sin datos previos" style="height: 250px;">
+    <p>en esta tabla se realizo un analisis en la cual la universidad debia elegir que carrera deberia abrir con diferentes escenarios, se realizaron diferentes enfoques y el hallazgo de pago promedio</p>
+    <img src="Imagenes\ultimatabla.jpeg" alt="ultima tabla" style="height: 250px;">
+    <p>ultima ta</p>
+    <h2>Actividad</h2>
+    <p>punto 2 y 3 de las carpetas de tomas de decisiones</p>
+
+    <h2>Ejercicios realizados en clase</h2>
+    <img style="width: 400px;" src="IMAGENES/ejercicios en clase.jpeG" alt="Ejercicio 2,3">
+    <img style="width: 400px;" src="Imagenes/imagen2.jpeg" alt="Ejercicio 6">
+    <p>En el enfoque optimista se eligio 500.000 del plan 1 ya que es la utilidad mayor</p> 
+    <p>En el enfoque conservador se eligio 400.000 de el plan 2 ya que la utilidad que genera es la mejor de las peores</p>
+    <p>Pago promedio</p>
+
+    <h2>Modelos de toma de desiciones con riesgo</h2>
+    <ul>
+        <li>
+            <STrong>Valor Monetario esperado (VME)</STrong>
+            <ul><li>(Alternativa 1 Entorno1*probabilidad de E1)+(Alternativa 1 Entorno2*probabilidad de E2)</li></ul>
+            <p>Esto explica que sin informacion adicional el valor esperado es el resultado de esta formula</p>
+        </li>
+        <li>
+            <strong>Valor monetario esperado con informacion perfecto(VME<sub>ip</sub>)</strong>
+            <ul><li>(Utilidad mas alta en estado de naturaleza 1* probabilidad de E1)+(Utilidad mas alta en estado de naturaleza 2*probabilidad de E2)</li></ul>
+            <p>Esto explica que con informacon adicional el valor esperado es el resultado de esta formula</p>
+        </li>
+        <li>
+            <strong>Valor de la informacion perfecta(VPI)</strong>
+            <ul>VME<sub>ip</sub>-VME</ul>
+            <p>Con esta formula Sabremos la diferencia entre tener Informacion y no tenerla, bajo este resultado tomaremos una desicion</p>
+        </li>
+        <strong>Ejemplo de estos modelos</strong>
+        <img src="" alt="Ejemplos">
+
+
+        <h1>Actividad</h1>
+        <p>Ejercicio 4 de la pagina 133 del capitulo 4 de toma de desiciones libro: Metodos cuantitativos para los negocios</p>
+
+
+        
+    </ul>
+    <p>20/02/2024</p>
+    <h2>Analisis de riesgo</h2>
+    <p>Si "p" es la probabilidad de una demanda fuerte,</p>
+    <p>"1-p" es la probabilidad de una demanda debil</p>
+    <h2>Valor esperado Grande</h2>
+    <h3>VEg= 20p-9(1-p)</h3>
+    <h3>VEg= 29p-9</h3>
+    <h2>Valor esperado mediano</h2>
+    <h3>VEm= 14p+5(1-p)</h3>
+    <h3>VEm= 9p+5</h3>
+    <h2>Valor esperado pequeño</h2>
+    <h3>VEp= 8p+7(1-p)</h3>
+    <h3>VEp= 1p+7</h3>
+
+    <h2>modelos de transporte</h2>
+    <p>Fase 1: hallar Solucion factible inicial</p>
+    <p>Fase 2: mejoramiento de la solucion hasta llegar a la solucion optima</p>
+    <h2>Metodo del costo mínimo</h2>
+    <p>Se utiliza para hallar la solucion factible inicial. Asignar la mayor cantidad de oferta/demanda en la celda de menor costo y asi sucesivamente</p>
+    <section>
+        <h2>¿Cómo calcular índice de mejoramiento</h2>
+        <h3>Pasos</h3>
+        <p>Paso 1: formular la tabla inicial del transporte</p>
+        <p>Paso 2: emplear el método del costo mínimo para encontrar una solucion factble inciial</p>
+        <p>Paso 3: Calcular el índice de mejoramiento(IM) para cada celda que no tenga asignacion</p>
+        <p>SI los IM>= 0, el problema es óptimo</p>
+        <p>Si los IM(<) 0, no es óptimo y se debe continuar con el paso IV</p>
+        <p>Paso 4: para la celda sin asignacion con el IM mas negativo, se determina la celda del circuito con signo negativo que tenga la menor asignacion; este es el valor que se emplea para una nueva asignacion, se suma este valor a las celdas del circuito que tengan signo positivo y se resta a las que tengan signo negativo</p>
+        <p></p>
+        <span>Celdas vacias</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>índice(I,M)</span>
+        
+
+    </section>
+    <h2>Modelos de asignacion</h2>
+    <p><strong>Metodo de solucion:</strong> Metodo hungar</p>
+    <ol>
+        <li>Paso. <strong>Reduccion por filas: </strong>a todos los elementos de la fila se le resta el menor elemento de la fila</li>
+        <li>Paso. <strong>Reduccion por columnas: </strong>a todos los elementos de la fla</li>
+        <li>Paso. <strong>Prueba de optimalidad: </strong>trasar el menor numero de lineas que cubran la mayor cantidad de ceros. Si el numero de lineas es menor que el numero de filas se dice que la solución no es optima, entoncs pasamos al 4to paso</li>
+        <li>paso. <strong>Reducciones posteriores:</strong> entre las casillas que quedaron libres, tome el menor valor y restelo al resto de las casillas libres, y se suma a las casillas que estan en el intercepto de las rectas. Volver a hacer la prueba de optimalidad</li>
+        <li>Paso. <strong>Asignar los agentes en las casillas de ceros </strong></li>
+    </ol>
+    <h3>Ejercicio:</h3>
+    <p>una universidad nombra a cuatro profesores para dirigir cuatro proyectos de grados. En la siguiente tabla se muestran los tiempos que cada docente se demora en cada proyecto segun su experiencia. Si a cada profesor se le debe de asignar un proyecto, a quien se le debe asignar cada uno de ellos minimizando el tiempo</p>
+    <h2>
+        Modelos PERT/CPM
+
+    </h2>
+    <ol>    <p>se utiliza para planear, programar y controlar varios proyectos:</p>
+        <li>¿Cual es el tiempo total para completar el proyecto</li>
+        <li>¿cuales son las fechas de inicio y terminacion programadas de cada actividad especifica?.</li>
+        <li>¿Cuales actividades son "criticas" y deben ser completadas exactamente como se programaron para mantener el proyecto dentro del programa?</li>
+        <li>¿que tanto se pueden demorar las actividades "no criticas" antes de que incremente el tiempo total de terminacion del proyecto?</li>
+        <li></li>
+    </ol>
+
+    <p><strong>Paso 1:</strong> identificar actividades o tareas asociasdas con el proyecto</p>
+    <p><strong>Paso 2:</strong> Calcular o estimar cuanto tiempo tomara cada actividadd</p>
+    <p><strong>Paso 3:</strong> Identificar cual tarea es mas importante y ordenarlas en orden decendiente del abecedario</p>
+    <p><strong>Paso 4
+        :</strong> Establecer la red desde la actividad inicial hasta la final:</p>
+
+
+
+
+
+
+        
+
+    
+    </body>
+</html>
